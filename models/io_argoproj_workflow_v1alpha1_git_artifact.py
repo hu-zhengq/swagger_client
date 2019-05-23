@@ -14,7 +14,8 @@ import pprint
 import re  # noqa: F401
 
 import six
-from swagger_client.models.io_k8s_api_core_v1_secret_key_selector import IoK8sApiCoreV1SecretKeySelector  # noqa: F401,E501
+from kubernetes.client.models.v1_secret_key_selector import V1SecretKeySelector
+#from swagger_client.models.io_k8s_api_core_v1_secret_key_selector import IoK8sApiCoreV1SecretKeySelector  # noqa: F401,E501
 
 
 class IoArgoprojWorkflowV1alpha1GitArtifact(object):

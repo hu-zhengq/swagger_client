@@ -25,10 +25,10 @@ from swagger_client.models.io_argoproj_workflow_v1alpha1_script_template import 
 from swagger_client.models.io_argoproj_workflow_v1alpha1_suspend_template import IoArgoprojWorkflowV1alpha1SuspendTemplate  # noqa: F401,E501
 from swagger_client.models.io_argoproj_workflow_v1alpha1_user_container import IoArgoprojWorkflowV1alpha1UserContainer  # noqa: F401,E501
 from swagger_client.models.io_argoproj_workflow_v1alpha1_workflow_step import IoArgoprojWorkflowV1alpha1WorkflowStep  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_affinity import IoK8sApiCoreV1Affinity  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_container import IoK8sApiCoreV1Container  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_toleration import IoK8sApiCoreV1Toleration  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_volume import IoK8sApiCoreV1Volume  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_affinity import IoK8sApiCoreV1Affinity  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_container import IoK8sApiCoreV1Container  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_toleration import IoK8sApiCoreV1Toleration  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_volume import IoK8sApiCoreV1Volume  # noqa: F401,E501
 
 
 class IoArgoprojWorkflowV1alpha1Template(object):

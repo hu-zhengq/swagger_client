@@ -15,7 +15,7 @@ import re  # noqa: F401
 
 import six
 from swagger_client.models.io_argoproj_workflow_v1alpha1_workflow import IoArgoprojWorkflowV1alpha1Workflow  # noqa: F401,E501
-from swagger_client.models.io_k8s_apimachinery_pkg_apis_meta_v1_list_meta import IoK8sApimachineryPkgApisMetaV1ListMeta  # noqa: F401,E501
+#from swagger_client.models.io_k8s_apimachinery_pkg_apis_meta_v1_list_meta import IoK8sApimachineryPkgApisMetaV1ListMeta  # noqa: F401,E501
 
 
 class IoArgoprojWorkflowV1alpha1WorkflowList(object):

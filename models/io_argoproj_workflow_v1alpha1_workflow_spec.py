@@ -16,12 +16,21 @@ import re  # noqa: F401
 import six
 from swagger_client.models.io_argoproj_workflow_v1alpha1_arguments import IoArgoprojWorkflowV1alpha1Arguments  # noqa: F401,E501
 from swagger_client.models.io_argoproj_workflow_v1alpha1_template import IoArgoprojWorkflowV1alpha1Template  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_affinity import IoK8sApiCoreV1Affinity  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_local_object_reference import IoK8sApiCoreV1LocalObjectReference  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_persistent_volume_claim import IoK8sApiCoreV1PersistentVolumeClaim  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_pod_dns_config import IoK8sApiCoreV1PodDNSConfig  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_toleration import IoK8sApiCoreV1Toleration  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_volume import IoK8sApiCoreV1Volume  # noqa: F401,E501
+from kubernetes.client import V1Affinity
+from kubernetes.client import V1LocalObjectReference
+from kubernetes.client import V1PersistentVolumeClaim
+from kubernetes.client import V1PodDNSConfig
+from kubernetes.client import V1Toleration
+from kubernetes.client import V1Volume
+
+
+
+#from swagger_client.models.io_k8s_api_core_v1_affinity import IoK8sApiCoreV1Affinity  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_local_object_reference import IoK8sApiCoreV1LocalObjectReference  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_persistent_volume_claim import IoK8sApiCoreV1PersistentVolumeClaim  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_pod_dns_config import IoK8sApiCoreV1PodDNSConfig  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_toleration import IoK8sApiCoreV1Toleration  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_volume import IoK8sApiCoreV1Volume  # noqa: F401,E501
 
 
 class IoArgoprojWorkflowV1alpha1WorkflowSpec(object):
@@ -38,13 +47,13 @@ class IoArgoprojWorkflowV1alpha1WorkflowSpec(object):
     """
     swagger_types = {
         'active_deadline_seconds': 'int',
-        'affinity': 'IoK8sApiCoreV1Affinity',
+        'affinity': 'V1Affinity',
         'arguments': 'IoArgoprojWorkflowV1alpha1Arguments',
-        'dns_config': 'IoK8sApiCoreV1PodDNSConfig',
+        'dns_config': 'V1PodDNSConfig',
         'dns_policy': 'str',
         'entrypoint': 'str',
         'host_network': 'bool',
-        'image_pull_secrets': 'list[IoK8sApiCoreV1LocalObjectReference]',
+        'image_pull_secrets': 'list[V1LocalObjectReference]',
         'node_selector': 'dict(str, str)',
         'on_exit': 'str',
         'parallelism': 'int',
@@ -55,10 +64,10 @@ class IoArgoprojWorkflowV1alpha1WorkflowSpec(object):
         'service_account_name': 'str',
         'suspend': 'bool',
         'templates': 'list[IoArgoprojWorkflowV1alpha1Template]',
-        'tolerations': 'list[IoK8sApiCoreV1Toleration]',
+        'tolerations': 'list[V1Toleration]',
         'ttl_seconds_after_finished': 'int',
-        'volume_claim_templates': 'list[IoK8sApiCoreV1PersistentVolumeClaim]',
-        'volumes': 'list[IoK8sApiCoreV1Volume]'
+        'volume_claim_templates': 'list[V1PersistentVolumeClaim]',
+        'volumes': 'list[V1Volume]'
     }
 
     attribute_map = {
@@ -682,6 +691,7 @@ class IoArgoprojWorkflowV1alpha1WorkflowSpec(object):
         if issubclass(IoArgoprojWorkflowV1alpha1WorkflowSpec, dict):
             for key, value in self.items():
                 result[key] = value
+
 
         return result
 

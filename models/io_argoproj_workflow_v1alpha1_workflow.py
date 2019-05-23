@@ -15,8 +15,8 @@ import re  # noqa: F401
 
 import six
 from swagger_client.models.io_argoproj_workflow_v1alpha1_workflow_spec import IoArgoprojWorkflowV1alpha1WorkflowSpec  # noqa: F401,E501
-from swagger_client.models.io_argoproj_workflow_v1alpha1_workflow_status import IoArgoprojWorkflowV1alpha1WorkflowStatus  # noqa: F401,E501
-from swagger_client.models.io_k8s_apimachinery_pkg_apis_meta_v1_object_meta import IoK8sApimachineryPkgApisMetaV1ObjectMeta  # noqa: F401,E501
+#from swagger_client.models.io_argoproj_workflow_v1alpha1_workflow_status import IoArgoprojWorkflowV1alpha1WorkflowStatus  # noqa: F401,E501
+#from swagger_client.models.io_k8s_apimachinery_pkg_apis_meta_v1_object_meta import IoK8sApimachineryPkgApisMetaV1ObjectMeta  # noqa: F401,E501
 
 
 class IoArgoprojWorkflowV1alpha1Workflow(object):
@@ -173,8 +173,8 @@ class IoArgoprojWorkflowV1alpha1Workflow(object):
         :param status: The status of this IoArgoprojWorkflowV1alpha1Workflow.  # noqa: E501
         :type: IoArgoprojWorkflowV1alpha1WorkflowStatus
         """
-        if status is None:
-            raise ValueError("Invalid value for `status`, must not be `None`")  # noqa: E501
+        #if status is None:
+            #raise ValueError("Invalid value for `status`, must not be `None`")  # noqa: E501
 
         self._status = status
 

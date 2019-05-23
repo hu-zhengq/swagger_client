@@ -14,15 +14,15 @@ import pprint
 import re  # noqa: F401
 
 import six
-from swagger_client.models.io_k8s_api_core_v1_container_port import IoK8sApiCoreV1ContainerPort  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_env_from_source import IoK8sApiCoreV1EnvFromSource  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_env_var import IoK8sApiCoreV1EnvVar  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_lifecycle import IoK8sApiCoreV1Lifecycle  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_probe import IoK8sApiCoreV1Probe  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_resource_requirements import IoK8sApiCoreV1ResourceRequirements  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_security_context import IoK8sApiCoreV1SecurityContext  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_volume_device import IoK8sApiCoreV1VolumeDevice  # noqa: F401,E501
-from swagger_client.models.io_k8s_api_core_v1_volume_mount import IoK8sApiCoreV1VolumeMount  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_container_port import IoK8sApiCoreV1ContainerPort  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_env_from_source import IoK8sApiCoreV1EnvFromSource  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_env_var import IoK8sApiCoreV1EnvVar  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_lifecycle import IoK8sApiCoreV1Lifecycle  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_probe import IoK8sApiCoreV1Probe  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_resource_requirements import IoK8sApiCoreV1ResourceRequirements  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_security_context import IoK8sApiCoreV1SecurityContext  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_volume_device import IoK8sApiCoreV1VolumeDevice  # noqa: F401,E501
+#from swagger_client.models.io_k8s_api_core_v1_volume_mount import IoK8sApiCoreV1VolumeMount  # noqa: F401,E501
 
 
 class IoArgoprojWorkflowV1alpha1ScriptTemplate(object):

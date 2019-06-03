@@ -14,10 +14,6 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from models.io_argoproj_workflow_v1alpha1_metadata import IoArgoprojWorkflowV1alpha1Metadata  # noqa: E501
-from swagger_client.rest import ApiException
-
 
 class TestIoArgoprojWorkflowV1alpha1Metadata(unittest.TestCase):
     """IoArgoprojWorkflowV1alpha1Metadata unit test stubs"""

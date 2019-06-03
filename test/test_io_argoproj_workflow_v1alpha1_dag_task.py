@@ -14,10 +14,6 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from models.io_argoproj_workflow_v1alpha1_dag_task import IoArgoprojWorkflowV1alpha1DAGTask  # noqa: E501
-from swagger_client.rest import ApiException
-
 
 class TestIoArgoprojWorkflowV1alpha1DAGTask(unittest.TestCase):
     """IoArgoprojWorkflowV1alpha1DAGTask unit test stubs"""
